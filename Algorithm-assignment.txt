@@ -1,0 +1,48 @@
+
+function cFactor(num1,num2){
+    var count = 0;  
+    var less;
+    if (num1>num2){
+        less = num2
+    }
+    else{
+        less = num1;
+    }
+        for (let i = 1 ; i<=less ; i++){
+        if(num1 % i == 0 && num2 % i == 0){
+            count++
+        }
+    }
+    console.log(count);
+}
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+function fun(num){
+    var count = 0;
+    var min = 0;
+    for(let j = 0 ; j<num.length; j++){
+           count +=num[j]; 
+        }
+  
+    for(let i = 0; i<num.length;i++){
+            if(num[i]*num.length>count){
+                console.log(num[i]);
+                break;
+            }
+    }
+}
+    var arr = [12,14,18,19,21]
+        fun(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
