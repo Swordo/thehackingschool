@@ -33,6 +33,45 @@ function fun(num){
 }
     var arr = [12,14,18,19,21]
         fun(arr);
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+Fib numbers N number of Fib numbers  loop
+
+function fib(n){
+    var num = [0,1];
+    if(n == 0){
+        return 0;
+        }
+    else if(n == 1){
+        return fib[0];
+    }
+    else if ( n>=2){
+        for(let i = 0 ; i <n-2 ; i++ ){
+                num.push(num[i]+num[i+1]);
+        }
+    } 
+    return num;
+    
+}
+console.log(fib(7));
+
+//////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
