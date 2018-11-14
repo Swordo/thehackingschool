@@ -1,0 +1,53 @@
+
+.button2 {
+    background-color: #008CBA;
+    font-size: 20px;
+    padding: 2px;
+    margin: 4px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.main{
+    text-align: center;
+}
+.searchButton{
+    font-size: 15px;
+    background-color: #f8f8f8;
+    margin: 5px;
+    padding: 10px;
+    border : none;
+
+}
+.i-nput{
+        border-style: outset; 
+        width: 450px;
+        line-height: 32px;
+        padding: 2px 3px;
+        font-size: 21px ;
+   
+}
+li{
+    display: inline;  
+}
+.navbar{
+    text-align: right;
+    padding:10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.gg {
+    padding: 6px;
+}
+a{
+    color: black;
+}
+
+
+
+
+
+
+
