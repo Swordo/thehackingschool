@@ -127,7 +127,7 @@ a = a ^ b;
 b = a ^ b;
 a = a ^ b;
 console.log("swapped " + a, b);
-////////////////every concept  arrat method******* 
+////////////////every concept  array method******* 
 var a = 2,
   b = 3;
 b = [a, (a = b)][0];
